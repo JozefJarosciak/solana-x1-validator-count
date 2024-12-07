@@ -3,11 +3,6 @@
 
 A Python script to fetch and display active and inactive validator counts for Solana and X1 blockchains.
 
-## Overview
-------------
-
-This script uses the RPC client API to connect to Solana-based blockchain networks (Solana, X1) and retrieve information about validators. It then processes this data to calculate active and inactive validator counts, which are displayed in a tabular format.
-
 ## Features
 ------------
 
@@ -15,6 +10,14 @@ This script uses the RPC client API to connect to Solana-based blockchain networ
 * Calculates active and inactive validator counts for each network
 * Displays results in a formatted table using the `tabulate` library
 * Implements retry logic to handle temporary connection issues or API errors
+
+## Example Output
+-------------------
+
+The script will display a table with active and inactive validator counts for each network:
+![image](https://github.com/user-attachments/assets/66e79e68-9334-4709-993f-c1d6a7ed4e9a)
+
+Note: The actual values will depend on the current validator counts for each network.
 
 ## Requirements
 ------------
@@ -30,13 +33,6 @@ This script uses the RPC client API to connect to Solana-based blockchain networ
 1. Clone this repository to your local machine.
 2. Run the script using `python blockchain-validator-count.py`.
 
-### Example Output
--------------------
-
-The script will display a table with active and inactive validator counts for each network:
-![image](https://github.com/user-attachments/assets/66e79e68-9334-4709-993f-c1d6a7ed4e9a)
-
-Note: The actual values will depend on the current validator counts for each network.
 
 ## Contributing
 ------------
