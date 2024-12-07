@@ -34,6 +34,7 @@ This script uses the RPC client API to connect to Solana-based blockchain networ
 -------------------
 
 The script will display a table with active and inactive validator counts for each network:
+![image](https://github.com/user-attachments/assets/66e79e68-9334-4709-993f-c1d6a7ed4e9a)
 
 Note: The actual values will depend on the current validator counts for each network.
 
@@ -45,5 +46,5 @@ Contributions are welcome! If you'd like to add support for additional blockchai
 ## License
 --------
 
-This script is released under the MIT license. See `LICENSE.txt` for details.
+This script is released under the MIT license. 
 
